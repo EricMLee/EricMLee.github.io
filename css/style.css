@@ -1,0 +1,234 @@
+body{ 
+  text-align: center;
+  background: blue;
+}
+.dis1{
+    background-image: url(assets/aron-visuals-LSFuPFE9vKE-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.dis2{
+  background-image: url(assets/background5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.dis3{
+  background-image: url(assets/working.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.carousel-caption {
+  bottom: 270px;
+  border: none;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background : transparent;
+  border: none;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.display-1{
+  text-align: center;
+  padding-top: 0%;
+  color: white;
+}
+
+.display-2{
+  padding-top: 40%;
+  color: white;
+}
+
+.navbar{
+  position: absolute;
+}
+
+.title{
+  font-size: 70px;
+}
+
+.description{
+  font-size: 30px;
+}
+
+.projectBox{
+  background: #f1f6f9;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.projectBox2{
+  background: #F1FAEE;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.projectName{
+  margin-top: 20px;
+}
+
+.projectDescription{
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+img {
+  border-radius: 3%;
+}
+.btn{
+  background-color: wheat;
+  background: wheat;
+  color: wheat;
+}
+.view{
+  border-radius: 3%;
+}
+
+.toolBox{
+  align-items: center;
+  background: #18a39c;
+  color: white;
+  padding-top: 6rem;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+hr.solid {
+  border-top: 2px solid rgb(216, 205, 205);
+  width: 200px;
+}
+.icons{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.DevTitle, .ToolsTitle{
+  margin-top: 4rem;
+  font-size: 50px;
+  font-size: 5vh;
+}
+
+.serviceImage{
+  background: white;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.fas{
+  color: #18a39c;
+}
+.serviceBox{
+  margin-bottom: 50px;
+}
+.techBox{
+  box-shadow: 5px 10px;
+  margin-bottom: 50px;
+}
+.toolsTechnology{
+  background: rgb(230, 239, 240);
+  padding-top: 6rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.aaaa{
+  height: 150px;
+  background: wheat;
+}
+
+
+form
+{
+  display: inline;
+}
+.form{
+  margin-left: auto; 
+  margin-right: auto;
+  width: 50%;
+}
+.form-control{
+  margin-left: auto; 
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.message{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+nezuko:hover{
+  background-image: url(assets/nezukoangry.gif);
+}
+  /* FOOTER */
+  
+@media only screen and (max-width: 980px){
+  .display-1{
+    margin-top: 20vh;
+    color: white;
+  }
+}
