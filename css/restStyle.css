@@ -46,7 +46,7 @@ background-image: url(assets/background9.jpg);
 }
 .navbar{
 position: absolute;
-  background-color: rgba(66, 53, 53, 0.8);
+  background-color: rgba(66, 53, 53);
 }
 
 .navbar-dark .navbar-brand {
